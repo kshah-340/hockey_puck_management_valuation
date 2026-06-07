@@ -32,3 +32,30 @@ Install the following packages (e.g., with `pip` or `conda`):
 - arviz
 - scikit-learn
 - matplotlib
+
+
+All other packages are part of the Python standard library.
+
+## Running the Code
+
+1. Place the data files (`games.csv`, `pbp.parquet`, `player_games.csv`, `tracking.parquet`) inside a folder named `DAC/data/` relative to the notebooks.
+2. Run `EDA.ipynb` first to verify data integrity (optional).
+3. Run `puck_management_analysis.ipynb`. All cells are ordered; execution from start to finish will reproduce every result, table, and figure.
+4. Output figures are saved to the `figures/` directory (created automatically).
+
+## LLMs / Coding Assistants
+
+*(You will fill this section – describe which tools you used, how you used them, and for which specific parts of the problem.)*
+
+Example structure:
+- **Tool(s) used:** [e.g., ChatGPT, GitHub Copilot]
+- **How used:** [e.g., generating boilerplate code, debugging, drafting docstrings, suggesting statistical approaches]
+- **Specific aspects assisted with:** [e.g., initial structure of LOOCV loop, Bayesian model specification, figure formatting]
+
+> **Note:** No methodology details are included here (as required by the task). All methodological explanations are in the `Analysis.pdf` document.
+
+## Important Notes
+
+- The original data is **not** included in this repository (as instructed).
+- The tracking data (`tracking.parquet`) is loaded but not used in the main analysis – the notebook comments on why it was omitted.
+- Model objects (PyMC traces) are not persisted to disk; they are held in memory during execution. To reproduce results, simply run the notebook end‑to‑end.
