@@ -45,4 +45,29 @@ All other packages are part of the Python standard library.
 
 ## LLMs / Coding Assistants
 
-(*FILL IN LATER*)
+I did use LLMs to assist with the efficiency and effectiveness of my workflow. Namely: Claude Pro and Google AI Studio. Below are example prompts used:
+
+### Streamlining Parameterization Decisions
+
+"You are a professional data scientist and hockey analytics expert.
+
+Suggest reasonable semi-informative Bayesian priors for the following modeling context..."
+
+### Efficiently Creating Graphics
+
+"You are a professional data scientist and hockey analytics expert.
+
+Given the following model structure, provide code to produce a horizontal bar chart with matplotlib.pyplot that displays total AV score and uses color on the bars to display the component breakdown of that score at the player-level."
+
+### Validating Approaches
+
+"You are a professional data scientist and hockey analytics expert.
+
+Given the following task, I have executed the following EDA... Identify areas, if any, that should still be checked to confirm the data is ready for modeling."
+
+"You are a professional data scientist and hockey analytics expert.
+
+Given the following task and model architecture, identify any areas that may not be statistically sound, and further identify any efficient solutions that will not require additional data."
+
+
+
