@@ -26,9 +26,9 @@ Kiran Shah's submission for the Buffalo Sabres Data Analysis Task, June 2026
 ## Required Packages
 
 Install the following packages (e.g., with `pip` or `conda`):
-pandas
-numpy
-pymc
-arviz
-scikit-learn
-matplotlib
+- pandas
+- numpy
+- pymc
+- arviz
+- scikit-learn
+- matplotlib
